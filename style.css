@@ -16,6 +16,12 @@
 	color: #24075f;
 	width: 100%;
 }
+.btn:hover {
+	border: 1px solid #24075f;
+	color: white;
+	background: #24075f;
+	width: 100%;
+}
 input {
 	background: rgb(250, 244, 244) !important;
 	border-top: none !important;
