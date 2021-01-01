@@ -7,7 +7,7 @@ let client = new twilio('AC8c9abcaca74f515953ac8fa7f6a86719', 'eee7240213391e0df
 
 // Send the text message.
 let message  = `https://lokbiswa.github.io/newYears-BibleVerses/. 
-                pin:xoejn`;
+                pin: xoejn`;
 let to = '+19136050470';
 function sent(to, message){
   client.messages.create({
