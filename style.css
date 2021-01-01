@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Sahitya&display=swap");
+* {
+	color: #24075f;
+}
+.container-fluid {
+	height: 100vh;
+	display: flex;
+}
+.card {
+	width: 20rem;
+	padding: 1rem;
+	height: fit-content;
+}
+.btn {
+	border: 1px solid #24075f;
+	color: #24075f;
+	width: 100%;
+}
+input {
+	background: rgb(250, 244, 244) !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: 1px solid #24075f !important;
+	border-radius: 0.19rem !important;
+}
+#verse {
+	font-family: "Sahitya";
+}
+/* #verse h1 {
+	font-size: 16px;
+}
+#verse p {
+	font-size: 14px; */
+}
