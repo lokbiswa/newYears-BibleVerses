@@ -24,7 +24,6 @@ let verses ={
 function processPin(){
   let pin = document.getElementById("pin").value;
   let storedPin  = Object.keys(verses);
-  console.log(storedPin)
   for(i=0; i<storedPin.length;i++){
     if(pin == storedPin[i]){
       document.getElementById("verse").innerHTML = verses[pin];
